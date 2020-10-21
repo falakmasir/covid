@@ -1,0 +1,29 @@
+body {
+    background-color: white;
+    color: #212121;
+    font-family: "Open Sans";
+    font-size: 0.85vw;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100% !important;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+} 
+
+html {
+    color: #212121;
+    font-size: 0.85vw;
+    overflow-x: hidden;  
+}
+
+input[type="email"], input[type="number"], input[type="search"], 
+input[type="text"], input[type="tel"], input[type="url"], 
+input[type="password"], textarea, select {
+	height: 2vw !important;
+	font-size: 0.765vw !important;
+	padding-bottom: 0 !important;
+	padding-top: 0 !important;
+	margin-bottom: 0 !important;
+	margin-top: 0 !important;
+}
